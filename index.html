@@ -2,62 +2,90 @@
 <html lang="en-us">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Brian Bales</title>
+  <meta charset="UTF-8">
+  <title>Brian Bales</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-	<h1>Brian Bales</h1>
-	<br>
-	<img src="https://avatars0.githubusercontent.com/u/30982198?s=460&v=4" alt="Brian Bales 2017">
-	<br>
-	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-	</p>
-	<br>
-	<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).		
-	</p>
-	<br>
-	<ul>
-        <li><a href="https://www.linkedin.com/in/brbales/">My LinkedIn Profile</a></li>
-		<li><a href="http://www.google.com">Place Holder Link 1</a></li>
-		<li><a href="http://www.google.com">Place Holder Link 2</a></li>
-	</ul>
-	<table border="1">
-    <thead>
-        <tr>
-            <th colspan="3">Some of My Favorites</th>
-        </tr>
-        <tr>
-            <th>Musicians</th>
-            <th>TV Shows</th>
-            <th>Movies</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Jimmy Buffet</td>
-            <td>Star Trek</td>
-            <td>James Bond</td>
-        </tr>
-        <tr>
-            <td>Ke$ha</td>
-            <td>Stargate SG1</td>
-            <td>Orange County</td>
-        </tr>
-        <tr>
-            <td>The Greatful Dead</td>
-            <td>Babylon 5</td>
-            <td>Star Trek</td>
-        </tr>
-        <tr>
-            <td>Blink-182</td>
-            <td>Parks and Recreation</td>
-            <td>Captain America</td>
-        </tr>
-        <tr>
-            <td>Garth Brooks</td>
-            <td>Top Gear UK</td>
-            <td>Place Holder</td>
-        </tr>
+<nav class="navbar nav-back">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand nav-text" href="#">Brian Bales</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a></a></li>     
+      </ul>
+      <ul class="nav navbar-nav navbar-right nav-text">
+        <li><a class="nav-text" href="https://github.com/brbales">My GitHub</a></li>
+        <li><a class="nav-text" href="https://www.linkedin.com/in/brbales/">My LinkedIn</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron">
+  <div class="container ">
+    <div class="row">
+      <div class="col-sm-4 col-md-4 col-xs-4">
+        <img src="https://avatars0.githubusercontent.com/u/30982198?s=460&v=4" alt="Brian Bales 2017" style="width:200px;height:200px;">
+      </div>
+      <div class="col-xs-6 col-sm-6 col-md-6 text-center">
+      <h1>Brian Bales</h1>         
+      <p>Some text that represents "Me"...</p>
+      </div>
+    </div>
+  </div>
+</div>
+  
+<div class="container-fluid bg-3 text-center">    
+  <h3>Some of my Work</h3><br>
+  <div class="row">
+    <div class="col-sm-4 col-md-4 col-xs-4">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4 col-md-4 col-xs-4"> 
+      <p>D3.js Charting</p>
+      <img src="https://brbales.github.io/d3_data_charting/" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4 col-md-4 col-xs-4"> 
+      <p>WeatherPy Data</p>
+      <img src="pics/temp_lat" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div><br>
+
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div class="col-sm-4 col-md-4 col-xs-4">
+      <p>Pymaceuticals</p>
+      <img src="pics/Metastatic_Site_Change" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4 col-md-4 col-xs-4"> 
+      <p>UFO Sightings - Interactive Webpage</p>
+      <img src="https://brbales.github.io/UFO_sightings/" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4 col-md-4 col-xs-4"> 
+      <p>WeatherPy Dashboard</p>
+      <img src="https://brbales.github.io/Dashboard_WeatherPy/" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div><br><br>
+
+<footer class="container-fluid text-center">
+  <p>****************************************************************************</p>
+</footer>
 
 </body>
